@@ -1,25 +1,25 @@
 div.container-first {
-    background-color: red;
-    height: 500px;
+  background-color: red;
+  height: 500px;
 }
 
 div.container-second {
-    background-color: aqua;
-    height: 500px;
+  background-color: aqua;
+  height: 500px;
 }
 
 .item {
-/*    height: 200px;*/
-    background-color: #ccc;
+  /*    height: 200px;*/
+  background-color: #ccc;
 }
 
-.item:nth-child(even) {       
-/* even oznacza, że wybieramy parzyste(sprawdzić!!!)*/
-    background-color: indianred;
+.item:nth-child(even) {
+  /* even oznacza, że wybieramy parzyste elementy*/
+  background-color: indianred;
 }
 
 /*rozszerzenie 'container' zawszcze dzieli na 12 elementów, nie ważne od 'container' czy 'container-fluid'*/
 
 nav#main-nav {
-    background-color: yellow;
+  background-color: yellow;
 }
