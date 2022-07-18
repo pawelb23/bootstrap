@@ -1,0 +1,35 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+h1 {
+    font-size: 10vmin;
+}
+
+.data {
+    font-size: 7vmin;
+    color: rgb(32, 32, 140);
+}
+
+#flex-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carouselExampleControls,
+img {
+    height: 50vmin;
+    width: 100vmin;
+}
+
+.carousel-item {
+    padding: 1vmin;
+    border: solid 1vmin black;
+    border-radius: 50%;
+}
+
+img {
+    border-radius: 50%;
+}
